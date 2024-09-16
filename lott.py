@@ -8,18 +8,30 @@ szam > 5
 az=[1,2,3,4,5]  az[1]+=1 while az[1] == 90
 '''
 
-szam = int(input("Kezdoertek ( >5 ):"))
+szam = int(input("Adj meg egy számot:"))
+szamok = range(szam,91)
 
-ez=[]
-az=[]
+igen = []
 
-while ez[]:
-    if szam > 5:
-        for i in range(5):
-            szam += 1
-            az.insert(0,szam)
-            if az[0] == 90:
-                pass
-    else:
-        szam = int(input("Kezdoertek ( >5 ):"))
+for i in szamok:
+    for j in szamok:
+        if i == j:
+            continue
+        for k in szamok:
+            if k in (i,j):
+                continue
+            for l in szamok:
+                if l in (i,j,k):
+                    continue
+                for n in szamok:
+                    if n in (i,j,k,l):
+                        continue 
+                    temp = {i,j,k,l,n}
+                    if temp not in igen:
+                        igen.append(temp)
+                        
+for x in igen:
+    x = list(x)
+    x.sort()
+    print(x)
 
