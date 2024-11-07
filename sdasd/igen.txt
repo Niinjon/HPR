@@ -1,0 +1,7 @@
+Tantárgy,Óraszám,Volt-e,Napok,Jegyek
+Programozás,5,igen,Hétfő Kedd Csütörtök,5 5
+Hálózat,9,igen,Csütörtök Péntek,5 5 5 5 5
+IKT Projektmunka,2,igen,Kedd,2 5
+Szerverkezelés,9,igen,Hétfő Kedd Csütörtök,5 5 5
+Munkavállalói Idegennyelv,2,nem,Kedd,5
+Idegennyelv,5,igen,Szerda,4 1 3 2
